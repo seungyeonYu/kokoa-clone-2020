@@ -1,0 +1,21 @@
+/* 구글에서 폰트 안가져옴 @import url();*/
+
+@import "reset.css";
+
+@import "variables.css";
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/nav-bar.css";
+@import "components/friends.css";
+
+/*screens*/
+@import "screens/login-form.css";
+@import "screens/welcome-header.css";
+
+body {
+  height: 1000vh;
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
+}
