@@ -3,11 +3,19 @@
   display: block;
   background-color: #fafafa;
   padding: 11px 0px;
+  margin-bottom: 10px;
 }
 #friends_display_link__text {
-  font-size: 16px;
+  font-size: 18px;
 }
 #friends_display_link i {
   color: gray;
   opacity: 0.3;
+}
+.friends-screen {
+  margin: 0px var(--horizontal-space);
+}
+.friends-screen__channel-header{
+  display: flex;
+  dis;
 }
