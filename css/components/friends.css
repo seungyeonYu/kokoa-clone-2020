@@ -4,6 +4,7 @@
   background-color: #fafafa;
   padding: 11px 0px;
   margin-bottom: 10px;
+  margin-top: -15px;
 }
 #friends_display_link__text {
   font-size: 18px;
@@ -15,7 +16,6 @@
 .friends-screen {
   margin: 0px var(--horizontal-space);
 }
-.friends-screen__channel-header{
+.friends-screen__channel-header {
   display: flex;
-  dis;
 }

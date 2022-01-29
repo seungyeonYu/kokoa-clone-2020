@@ -15,10 +15,15 @@
   display: flex;
   flex-direction: column;
 }
-.user-component__avatar {
+.user-component__avatar--xl {
   width: 70px;
   height: 70px;
   border-radius: 29px;
+}
+.user-component__avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 24px;
 }
 .user-component__title {
   font-size: 20px;
