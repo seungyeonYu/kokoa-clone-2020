@@ -1,3 +1,39 @@
-.user-component__column-title {
-  margin-top: -15px;
+.sub-border {
+  border-style: none;
+}
+.more-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.more-icons__icon i {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.sub-margin__bottom {
+  margin-bottom: -10px;
+}
+.user-component__title-more {
+  font-size: 20px;
+  font-weight: 900;
+}
+.user-component__subtitle-more {
+  margin-top: 2px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+}
+.user-component__column-messages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.add-border__bottom {
+  padding-bottom: 45px;
+  border-bottom: var(--main-border);
 }
