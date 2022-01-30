@@ -1,5 +1,5 @@
 .user-component:first-child {
-  border: none;
+  margin-bottom: 20px;
 }
 .user-component__avatar {
   width: 65px;

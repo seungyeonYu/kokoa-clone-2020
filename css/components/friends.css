@@ -11,7 +11,7 @@
 }
 #friends_display_link i {
   color: gray;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 .friends-screen {
   margin: 0px var(--horizontal-space);
