@@ -2,5 +2,7 @@
   --yellow: #fef01b;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
-  --color-grey: rgba(0, 0, 0, 0.3);
+  --color-littleblack: rgba(0, 0, 0, 0.4);
+  --color-body: #2e363e;
+  --color-red: rgb(255, 44, 44);
 }

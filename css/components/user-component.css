@@ -1,14 +1,47 @@
 .user-component {
   display: flex;
   align-items: center;
-  padding-bottom: 15px;
+  padding-bottom: 18px;
+  justify-content: space-between;
 }
-.user-component__column-firends {
-  border-bottom: var(--main-border);
+
+.user-component:first-child {
+  margin-bottom: 15px;
 }
 .user-component__column {
   display: flex;
   align-items: center;
+}
+
+.user-component__column-firends {
+  border-bottom: var(--main-border);
+}
+
+.user-component__column-2 {
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+.user-component__column-num {
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.user-component__avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 42%;
+}
+.user-component__avatar--xl {
+  width: 70px;
+  height: 70px;
+  border-radius: 42%;
+}
+
+.user-component__avatar--sm {
+  width: 50px;
+  height: 50px;
+  border-radius: 42%;
 }
 
 .user-component__text {
@@ -16,40 +49,30 @@
   flex-direction: column;
   margin-left: 12px;
 }
-.user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
-  border-radius: 29px;
+.user-component__title {
+  font-size: 20px;
+  font-weight: 700;
 }
-.user-component__avatar {
-  width: 65px;
-  height: 65px;
-  border-radius: 24px;
-}
-.user-component__avatar--sm {
-  width: 60px;
-  height: 60px;
-  border-radius: 26px;
-}
+
 .user-component__title--not-bold {
+  font-weight: 500;
+}
+
+/*chats*/
+.user-component__subtitle {
+  padding-top: 3px;
+  color: grey;
+  font-size: 14px;
   font-weight: 400;
 }
-.user-component {
-  justify-content: space-between;
+
+.user-component__column-chattime {
+  margin-bottom: 8px;
+  color: grey;
+  font-size: 14px;
 }
-.friends-screen__channel-header {
-  padding-top: 9px;
-  padding-bottom: 20px;
+.user-component__column-chat {
   display: flex;
-  justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 15px;
-}
-.user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 17px;
-  display: flex;
-  width: 20px;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }

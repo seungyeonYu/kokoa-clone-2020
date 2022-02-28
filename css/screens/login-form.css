@@ -3,32 +3,46 @@
   flex-direction: column;
   margin: 0px 25px;
 }
-#login-form input {
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  padding-bottom: 18px;
+  margin-bottom: 33px;
   border: none;
-  padding: 14px 0px;
-  margin-bottom: 15px;
 }
 input::placeholder {
-  font-size: 15px;
+  font-size: 17px;
   opacity: 0.7;
 }
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   transition: border-color 0.3s ease-in-out;
 }
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--color-red);
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
   cursor: pointer;
+  padding: 17px 0px;
+  margin-bottom: 15px;
   border-radius: 7px;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 16px;
 }
+#login-form input[type="submit"] {
+  transition: background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+#login-form input:hover[type="submit"] {
+  background-color: var(--color-red);
+  color: white;
+}
+
 #login-form a {
   text-align: center;
   text-decoration: none;
-  color: inherit;
-  font-size: 13px;
+  color: var(--color-body);
+  font-size: 14px;
   font-weight: 400;
 }

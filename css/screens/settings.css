@@ -1,0 +1,40 @@
+.settings__setting {
+  padding: 16px 0px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.settings__setting-ex {
+  padding: 20px 0px 30px 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.settings__setting-excolumn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.settings__setting-excolumn :last-child {
+  color: grey;
+}
+.settings__icon {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+
+  color: var(--color-lettleblack);
+  margin-right: 20px;
+  font-size: 18px;
+}
+.settings__setting-exex {
+  padding: 18px 0px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
